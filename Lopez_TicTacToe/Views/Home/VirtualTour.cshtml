@@ -1,0 +1,94 @@
+@{
+    ViewData["Title"] = "Virtual Tour";
+}
+
+<div class="virtual-tour-container">
+    <div class="placeholder-section">
+        <div class="placeholder-content">
+            <i class="fas fa-video"></i>
+            <h2>Virtual Tour Coming Soon!</h2>
+            <p>We're currently updating our virtual tour experience.</p>
+            <p>Schedule an in-person tour to experience Villa Vista firsthand.</p>
+            <a href="/Home/Contact" class="btn btn-primary mt-3">Schedule a Tour</a>
+        </div>
+    </div>
+
+    <div class="features-section">
+        <h2 class="text-center mb-4">Our Premium Amenities</h2>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="feature-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Resort Pool</h3>
+                    <p>Olympic-sized swimming pool</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="feature-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Modern Gym</h3>
+                    <p>State-of-the-art equipment</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="feature-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>Green Spaces</h3>
+                    <p>Beautiful gardens and trails</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="feature-card">
+                    <i class="fas fa-basketball-ball"></i>
+                    <h3>Sports Complex</h3>
+                    <p>Multi-purpose courts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .virtual-tour-container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 2rem;
+        border-radius: 10px;
+        margin: 2rem auto;
+    }
+
+    .placeholder-section {
+        background: linear-gradient(135deg, #22333B, #2C4147);
+        padding: 4rem 2rem;
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        margin-bottom: 3rem;
+    }
+
+    .placeholder-content i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .feature-card {
+        text-align: center;
+        padding: 1.5rem;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+
+    .feature-card i {
+        font-size: 2rem;
+        color: #22333B;
+        margin-bottom: 1rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
